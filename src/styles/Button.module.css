@@ -1,0 +1,28 @@
+
+/* button component */
+.button {
+    background: var(--successGreen);
+    color: var(--fontPrimary);
+    font-weight: 600;
+    margin:  10px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .button:hover {
+    background: var(--fontPrimary);
+    color: #fff;
+  }
+  
+  .button:hover span {
+    color: #fff;
+  }
