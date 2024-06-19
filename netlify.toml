@@ -1,4 +1,13 @@
+[build]
+  publish = "dist" # Adjust this to your build directory
+  command = "npm run build" # Your build command
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
